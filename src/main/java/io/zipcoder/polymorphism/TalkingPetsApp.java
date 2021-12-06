@@ -9,9 +9,8 @@ public class TalkingPetsApp {
         String numberOfPetInput = console.getStringInput("\nHow many pets do you have?");
         String typeOfPetInput = console.getStringInput("What are the type of pets you have?");
         String nameOfPetInput = console.getStringInput("Whare the names of your pets?");
-        System.out.println("You have " + numberOfPetInput + " pet(s)." + " The types of pet(s) you have are " + typeOfPetInput
-                + "." + " The name of your pet(s) are " + nameOfPetInput + ".");
-
+        System.out.println("You have " + numberOfPetInput + " pet(s)." + " The types of pet(s) you have are "
+                + typeOfPetInput + "." + " The name of your pet(s) are " + nameOfPetInput + ".");
     }
 
     private String getWelcomeScreen() {

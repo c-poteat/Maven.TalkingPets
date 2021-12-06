@@ -1,7 +1,11 @@
 package io.zipcoder.polymorphism;
 
 public class Pet {
-    private String name;
+    public String name;
+
+    public Pet() {
+
+    }
 
     public String getName() {
         return name;
@@ -17,5 +21,6 @@ public class Pet {
     public String speak() {
         return "speak";
     }
+
 
 }
