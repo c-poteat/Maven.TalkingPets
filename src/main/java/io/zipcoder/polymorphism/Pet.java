@@ -1,11 +1,28 @@
 package io.zipcoder.polymorphism;
 
+import java.util.ArrayList;
+
 public class Pet {
+    public static ArrayList<String> list = new ArrayList();
     public String name;
 
     public Pet() {
 
     }
+
+    public void add(String pet) {
+        list.add(pet);
+    }
+
+//    public String getPetById(int id) {
+//        for(String pet : list) {
+//            if(pet. == id) {
+//                return pet;
+//            }
+//        }
+//        return null;
+//    }
+
 
     public String getName() {
         return name;

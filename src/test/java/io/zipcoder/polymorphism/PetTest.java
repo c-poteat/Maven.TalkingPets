@@ -18,7 +18,7 @@ public class PetTest {
         //Then
         Assert.assertEquals(expected,actual);
     }
-        @Test
+    @Test
     public void testDefaultConstructor() {
         // Given
         String expectedName = null;
